@@ -6,13 +6,14 @@ var Player = function(name, job, hp, mp) {
     this.mp = mp;
 };
 // プロトタイプによるメソッド作成
-Player.prototype.getName = function() {
-    return "I am " + this.name;
-};
+
+
+
+
 // プロトタイプによるメソッド作成
-Player.prototype.getJob = function() {
-   return "My job is " + this.job;
-};
+
+
+
 
 // オブジェクト作成
 var p1 = new Player("Minnie","Magician", 20, 30);
