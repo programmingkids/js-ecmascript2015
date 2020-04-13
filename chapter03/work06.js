@@ -15,8 +15,8 @@ class Person {
 }
 
 // Personを継承したHeroを定義
-class Hero extends Person {
-}
+
+
 
 // Personオブジェクトの作成
 const person = new Person("John", 19);
@@ -26,7 +26,6 @@ person.showAge();
 console.log("----");
 
 // Heroオブジェクトの作成
-const hero = new Hero("Alice", 16);
+
 // 継承しているのでメソッドが呼び出せます
-hero.showName();
-hero.showAge();
+
