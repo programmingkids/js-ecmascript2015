@@ -18,7 +18,7 @@ var Player = function(name, job, hp, mp) {
 };
 
 // オブジェクト作成
-var p1 = new Player("Minnieー","Magician", 20, 30);
+var p1 = new Player("Minnie","Magician", 20, 30);
 // メソッド呼び出し
 console.log(p1.getName());
 console.log(p1.getJob());
